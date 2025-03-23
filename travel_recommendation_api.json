@@ -1,0 +1,87 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "name": "Thailand",
+        "cities": [
+          {
+            "name": "Phuket, Thailand",
+            "imageUrl": "./images/phuket.jpg",
+            "description": "A beautiful beach paradise featuring pristine white sand beaches, crystal-clear waters, and stunning coastal views. Perfect for swimming, snorkeling, and sunbathing."
+          },
+          {
+            "name": "Bangkok, Thailand",
+            "imageUrl": "./images/bangkok.jpg",
+            "description": "Home to magnificent temples including the Temple of the Emerald Buddha and Wat Arun. These ancient temples showcase stunning Thai architecture and spiritual significance."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "./images/kyoto.jpg",
+            "description": "The cultural heart of Japan, featuring over 1,600 Buddhist temples. The Golden Temple (Kinkaku-ji) and Kiyomizu-dera Temple are must-visit spiritual landmarks."
+          },
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "./images/tokyo.jpg",
+            "description": "A vibrant country's capital where tradition meets innovation. Experience Japanese culture in this modern metropolis while exploring historic temples and gardens."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Maldives",
+        "cities": [
+          {
+            "name": "Male, Maldives",
+            "imageUrl": "./images/male.jpg",
+            "description": "A tropical beach haven with pristine shorelines and turquoise lagoons. The perfect destination for beach lovers seeking paradise with luxury overwater bungalows."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Switzerland",
+        "cities": [
+          {
+            "name": "Zurich",
+            "imageUrl": "./images/zurich.jpg",
+            "description": "A beautiful country with stunning lakes and mountains, perfect for exploring European culture."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "./images/angkorwat.jpg",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "./images/tajmahal.jpg",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "./images/bora-bora.jpg",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "enter_your_image_for_copacabana.jpg",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+  }
+  

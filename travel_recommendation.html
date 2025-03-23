@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./travel_recommendation.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Sunny Travel</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+        <form role="search" class="search-form">
+            <input type="search" class="search-input" placeholder="Search for a destination" name="search" id="search">
+            <button type="submit" class="search-button">Search</button>
+            <button type="button" class="search-button">Clear</button>
+        </form>
+    </header>
+    <section id="home">
+        <h1>Welcome to Sunny Travel</h1>
+        <p>Your one-stop destination for all your travel needs.</p>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Trusted Travel Partner</h3>
+                    <p>Welcome to Sunny Travel, where we turn your travel dreams into reality. With years of experience in the travel industry, we specialize in creating unforgettable journeys tailored to your preferences.</p>
+                    <p>Our team of expert travel consultants is dedicated to providing personalized service and insider knowledge to make your trip extraordinary.</p>
+                </div>
+                <div class="about-team">
+                    <div class="team-member">
+                        <img src="./images/team-member-1.jpg" alt="Team Member 1">
+                        <h4>John Doe</h4>
+                        <p>CEO</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/team-member-2.jpg" alt="Team Member 2">
+                        <h4>Jane Smith</h4>
+                        <p>Travel Consultant</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/team-member-3.jpg" alt="Team Member 3">
+                        <h4>Michael Johnson</h4>
+                        <p>Travel Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="name">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="email">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="Message">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="search-results" style="display: none;">
+        <div class="results-container">
+            <h2>Travel Recommendations</h2>
+            <div id="recommendations-grid"></div>
+        </div>
+    </section>
+</body> 
+</html>
